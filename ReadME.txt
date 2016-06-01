@@ -1,0 +1,3 @@
+To start, please put folder to a webserver, example: IIS, Apache ...
+Data config on folder "data".
+Menu support multiple level.

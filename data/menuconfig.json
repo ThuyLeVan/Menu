@@ -1,0 +1,92 @@
+{
+  "Menu": {
+    "0": {
+      "Num": 1,
+      "Icon_url": "public/images/photos.png",
+      "Text": "Menu 1",
+      "Link": "Link_to_menu_1"
+    },
+    "1": {
+      "Icon_url": "public/images/driver.png",
+      "Link": "Link_to_menu_2",
+      "Num": 2,
+      "Text": "Menu 2",
+      "ChildMenu": {
+        "0": {
+          "Icon_url": "public/images/youtube.png",
+          "Link": "Link_to_menu_2.1",
+          "Num": 1,
+          "Text": "Menu 2.1",
+          "ChildMenu": {
+            "0": {
+              "Icon_url": "public/images/map.png",
+              "Link": "Link_to_menu_2.1.1",
+              "Num": 1,
+              "Text": "2.1.1",
+              "ChildMenu": {
+                "0": {
+                  "Icon_url": "public/images/translate.png",
+                  "Link": "Link_to_menu_2.1.1.1",
+                  "Num": 1,
+                  "Text": "2.1.1.1"
+                }
+              }
+            },
+            "1": {
+              "Icon_url": "public/images/g+.png",
+              "Link": "Link_to_menu_2.1.2",
+              "Num": 2,
+              "Text": "Menu 2.1.2"
+            }
+          }
+        },
+        "1": {
+          "Icon_url": "public/images/setting.png",
+          "Link": "Link_to_menu_2.2",
+          "Num": 2,
+          "Text": "Menu 2.2"
+        }
+      }
+    },
+    "2": {
+      "Num": 3,
+      "Icon_url": "public/images/docs.png",
+      "Text": "Menu 3",
+      "Link": "Link_to_menu_3"
+    },
+    "3": {
+      "Num": "4",
+      "Icon_url": "public/images/gmail.png",
+      "Text": "Menu 4",
+      "Link": "Link_to_menu_4"
+    },
+    "4": {
+      "Num": 5,
+      "Icon_url": "public/images/play.png",
+      "Text": "Menu 5",
+      "Link": "Link_to_menu_5",
+      "ChildMenu": {
+        "0": {
+          "Icon_url": "public/images/hangout.png",
+          "Link": "Link_to_menu_5.1",
+          "Num": 1,
+          "Text": "Menu 5.1",
+          "ChildMenu": {
+            "0": {
+              "Icon_url": "public/images/icon.png",
+              "Link": "Link_to_menu_5.1.1",
+              "Num": 1,
+              "Text": "Menu 5.1.1"
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "Num": 6,
+      "Icon_url": "public/images/search.png",
+      "Text": "Menu 6",
+      "Link": "Link_to_menu_6"
+    }
+  }
+}
